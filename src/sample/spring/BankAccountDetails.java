@@ -1,3 +1,5 @@
+package sample.spring;
+
 import com.sun.org.apache.bcel.internal.generic.RETURN;
 
 import java.util.Date;
@@ -36,6 +38,6 @@ public class BankAccountDetails {
 
     @Override
     public String toString() {
-        return "BankAccountDetails [accountOd="+accountId+", balanceAmount="+balanceAmount+", lastTransactionTimestamp="+lastTransactionTimestamp+"]";
+        return "sample.spring.BankAccountDetails [accountOd="+accountId+", balanceAmount="+balanceAmount+", lastTransactionTimestamp="+lastTransactionTimestamp+"]";
     }
 }

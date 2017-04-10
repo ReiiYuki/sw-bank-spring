@@ -1,3 +1,5 @@
+package sample.spring;
+
 /**
  * Created by wit on 4/3/17.
  */
